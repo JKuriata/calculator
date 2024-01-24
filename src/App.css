@@ -1,0 +1,39 @@
+* {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+
+.centre {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  max-width: 500px;
+  padding: 6px;
+  border-width: 4px;
+  border-style: groove;
+  border-color: black;
+  background-color: #2364AA;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EA7317;
+  border-radius: 5px;
+  width: 500px;
+  height: 70px;
+}
+
+.buttonWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttonWrap button{
+  border: 0px;
+  border-radius: 5px;
+  padding: 3rem;
+  margin: 5px;
+  background-color: #FEC601;
+}
